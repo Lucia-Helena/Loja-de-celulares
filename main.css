@@ -4,23 +4,32 @@
     box-sizing: border-box;
 }
 
+section {
+    background-color: #f0e1b3 ;
+}
+
 body, input, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header h1,
 section h2,
 section h3, 
 form button{
-    font-family: 'Bungee', cursive;
+    
+    
+    
+    font-family: 'Rowdies', cursive;
     font-weight: normal;
+    
+font-weight: normal;
 
 }
 
 header {
-    padding: 10 px 0;
-    background-color: blue;
-    color: white;
+    padding: 15px 0;
+    background-color: #000000d2;
+    color:#fac209 ;
 }
 
 header nav li {
@@ -30,12 +39,12 @@ header nav li {
 }
 
 header nav li a {
-    color: white;
+    color: #f8c10a;
     text-decoration: none;
 }
 
 .container {
-    max-width: 970px;
+    max-width: 980px;
     width: 100%;
     margin: 0 auto;
 }
@@ -48,7 +57,7 @@ section .container{
 }
 
 .brands-list img {
-    height: 24px;
+    height: 60px;
 }
 
 .brands-list li {
@@ -68,19 +77,23 @@ section h2 {
 }
 
 section {
-    color: blue;
+    color: #000;
+}
+
+section h2 {
+    color: #f8c10a;
 }
 
 section p {
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .store-front {
-    margin-right: 32px;
+    margin-right: 33px;
 }
 
 .social-links img {
-    height: 24px;
+    height: 26px;
 }
 
 .social-links li {
@@ -106,36 +119,36 @@ form textarea,
 form button {
     display: block;
     width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 form textarea {
     resize: none;
-    height: 180px;
+    height: 150px;
 }
 
 section h3 {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 form button {
-    background-color: blue;
-    color: white;
+    background-color: #f8c10a;
+    color: #000;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: rgb(91, 91, 177);
+    background-color: #f1c638;
 }
 
 input:focus, textarea:focus {
-    outline-color: blue;
+    outline-color: #f8c10a;
 }
 
 footer {
-    background-color: blue;
-    color: white;
-    padding: 16px 0;
+    background-color: #000000d2;
+    color: #f8c10a;
+    padding: 18px 0;
 }
